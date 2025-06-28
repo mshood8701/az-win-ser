@@ -19,10 +19,5 @@ Provisioned with the following configuration:
 - **Public IP:** Static with RDP access on port 3389
 - **Location:** West US
 
-## Prerequisites
 
-- Azure CLI installed
-- Azure subscription access
-- HTML/CSS/JS files (`index.html`, `style.css`, `script.js`)
-- If not using script: access to RDP and local file sharing
 
