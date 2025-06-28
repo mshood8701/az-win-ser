@@ -1,19 +1,28 @@
-# Azure Windows VM Provisioning
-This project demonstrates how to provision a Windows Server virtual machine in Azure using the Azure CLI and Bash scripting.
+# Windows Server Web Deployment on Azure
+This project demonstrates how to deploy a simple static website (HTML, CSS, JS) on a Windows Server VM running IIS on Microsoft Azure.
 
-## What It Does
 
-- Creates a virtual network and subnet
-- Sets up a network security group with RDP access (port 3389)
-- Assigns a public IP to the VM
-- Deploys a Windows Server 2022 VM
-- Uses environment variables to securely manage sensitive data
+## Contents
+
+- Azure CLI commands to create VM & infrastructure
+- Automated script to upload web files 
+- Manual method using RDP to copy files into IIS folder
 
 ---
 
+## VM Setup
+
+Provisioned with the following configuration:
+
+- **OS:** Windows Server 2022 Datacenter
+- **Web Server:** IIS (installed by default)
+- **Public IP:** Static with RDP access on port 3389
+- **Location:** West US
+
 ## Prerequisites
 
-- Azure CLI installed and logged in (`az login`)
-- Bash 
-- Azure subscription with permission to create resources
+- Azure CLI installed
+- Azure subscription access
+- HTML/CSS/JS files (`index.html`, `style.css`, `script.js`)
+- If not using script: access to RDP and local file sharing
 
